@@ -5,4 +5,8 @@
     apt: pkg=terminator state=latest
   - name: Install git
     apt: pkg=git state=latest
+  - name: Install virtualbox
+    apt: pkg=virtualbox state=latest
+  - name: Install vagrant
+    apt: pkg=vagrant state=latest
  
