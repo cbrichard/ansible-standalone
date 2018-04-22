@@ -3,4 +3,6 @@
   tasks:
   - name: Install preferred terminal emulator
     apt: pkg=terminator state=latest
+  - name: Install git
+    apt: pkg=git state=latest
  
